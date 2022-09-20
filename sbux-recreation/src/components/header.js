@@ -1,4 +1,4 @@
-// Main imports
+//Main imports
 import React from 'react'
 
 //Style imports
