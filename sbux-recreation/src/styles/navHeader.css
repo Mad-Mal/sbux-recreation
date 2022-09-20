@@ -1,0 +1,71 @@
+.navHeader_mainWrap {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    border-bottom: 3px solid rgb(182, 175, 175);
+}
+
+.navHeader_leftWrap {
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.inbox {
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.inboxButton {
+    border: none;
+    background-color: white;
+    font-size: large;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.location {
+    font-size: x-large;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.locationButton {
+    border: none;
+    background-color: white;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.navHeader_rightWrap {
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    margin-bottom: 0.5rem;
+}
+
+.historyButton {
+    border: none;
+    background-color: white;
+    font-size: x-large;
+}
+
+.accountButton {
+    border: none;
+    background-color: white;
+    font-size: x-large;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+}
