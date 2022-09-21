@@ -1,6 +1,5 @@
 //Main Imports
-import Header from './components/header';
-import NavHeader from './components/navHeader';
+import Home from './views/home';
 
 //Style Imports
 import './App.css';
@@ -8,8 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className="AppWrapper">
-      <Header />
-      <NavHeader />
+      <Home />
     </div>
   );
 }
