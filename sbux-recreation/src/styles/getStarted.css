@@ -1,0 +1,54 @@
+.getStarted_mainWrap {
+    background-color: rgb(240, 240, 240);
+    padding-top: 5rem;
+}
+
+.getStarted_title {
+    margin-left: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.getStarted_buttonsWrap {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.PS_Button {
+    width: 90%;
+    height: 5.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.PS_Button_text {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+
+.PS_Button_text h2 {
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.PS_Button_text p {
+    text-align: start;
+}
+
+.arrowButton {
+    width: 0.75rem;
+    height: 0.75rem;
+    border-top: 0.25rem solid lightgrey;
+    border-right: 0.25rem solid lightgrey;
+    background-color: white;
+    transform: rotate(45deg);
+    margin-left: 6rem;
+}
