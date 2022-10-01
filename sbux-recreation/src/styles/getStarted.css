@@ -1,6 +1,7 @@
 .getStarted_mainWrap {
     background-color: rgb(240, 240, 240);
     padding-top: 5rem;
+    padding-bottom: 1rem;
 }
 
 .getStarted_title {
@@ -26,6 +27,7 @@
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-around;
+    box-shadow: 0px 4px lightgrey;
 }
 
 .PS_Button_text {
@@ -54,6 +56,7 @@
     align-items: center;
     justify-content: space-around;
     margin-top: 1rem;
+    box-shadow: 0px 4px lightgrey;
 }
 
 .OA_Button_text {
