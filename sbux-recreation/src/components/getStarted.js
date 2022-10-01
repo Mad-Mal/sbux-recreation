@@ -4,6 +4,7 @@ import React from 'react';
 //Style imports
 import '../styles/getStarted.css';
 import Sbuxcard from '../images/sbux-card.png';
+import Sbuxcup from '../images/sbux-cup-buttonn.png';
 
 function getStarted() {
   return (
@@ -19,10 +20,10 @@ function getStarted() {
                 <span className='arrowButton'></span>
             </button>
             <button className='OA_Button'>
-                <span></span>
+                <img src={Sbuxcup} alt='light green circle with starbucks cup on it'></img>
                 <div className='OA_Button_text'>
                     <h2>Order ahead</h2>
-                    <p>Customize, pay and earn Stars, then head straigt to pick up</p>
+                    <p>Customize, pay and earn Stars, then <br/>head straigt to pick up</p>
                 </div>
                 <span className='arrowButton'></span>
             </button>
