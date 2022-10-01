@@ -10,11 +10,12 @@ const header = () => {
   let today = new Date();
   let currentTime = today.getHours();
   let greeting = 'Hi';
+  console.log(currentTime)
 
   //Using if else statement to determine greeting based off time of day
   if(currentTime < 12){
     greeting = 'Goodmorning'
-  } else if(currentTime > 12 & currentTime < 17){
+  } else if(currentTime >= 12 & currentTime <= 17){
     greeting = 'Good afternoon'
   } else {
     greeting = 'Good evening'
