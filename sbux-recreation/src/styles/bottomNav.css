@@ -8,10 +8,18 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
 }
 
-.bottomNav_wrap div p {
+.bottomNav_wrap button {
+    height: 100%;
+    width: 6rem;
+    border: none;
+    background-color: lightgrey;
+}
+
+.bottomNav_wrap button p {
     margin-bottom: 0.5rem;
     color: rgb(92, 87, 87);
+    font-size: x-large;
 }
